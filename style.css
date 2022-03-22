@@ -12,7 +12,7 @@
 
 .cabecalho {
     padding: 10px;
-    background-color: #2C2C2C;  
+    background-color: #202124;  
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,12 +24,51 @@
     margin-left: 20px;
 }
 .cabecalho-logo a {
-    color: #00000088;
+    color: #BED4E2;
 }
 
-.conteudo {
-    display: contents;
+.menu{
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.menu-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.menu-ul a{
+    padding: 15px;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+.menu a:hover{
+    background-color: #28292c;
+    color: #9EF8EE;
+}
+.menu-ul-li-ul a{
+    background-color: #369AD9;
+    border: 0.4px solid #fff;
+    
+}
+.menu-ul-li-ul{
+    display: block;
+    visibility: hidden;
+    position: absolute;   
+}
+.menu-ul-li-ul:hover{
+    visibility: visible;
 
 }
+
+    
+    
+    
+
 
