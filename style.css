@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+.cabecalho {
+    padding: 10px;
+    background-color: #2C2C2C;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.cabecalho-logo {
+    font-family: 'Monoton', cursive;
+    margin-left: 20px;
+}
+.cabecalho-logo a {
+    color: #00000088;
+}
+
+.conteudo {
+    display: contents;
+    flex-direction: row;
+
+}
+
